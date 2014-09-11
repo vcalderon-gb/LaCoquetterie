@@ -1,0 +1,377 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"m",
+				"btn-munecas.png	w:192 h:105"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"bt",
+				"btn-vestidos"
+			],
+			[
+				"btn-",
+				"btn-monitos"
+			],
+			[
+				"f",
+				"float"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"Tidy HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"PAC",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/La-Coquetterie/CSS/personalized.css",
+		"/C/xampp/htdocs/CMDMC-2013/BACK-Index-Template-09-09-2014.html",
+		"/C/xampp/htdocs/La-Coquetterie/HTML/home.html",
+		"/C/Users/Virgilio/Dropbox/Contratos/2014/La-Coquetterie/MercadoShops/Plantillas/Versiones/Responsive/La-Coquetterie/HTML/home.html",
+		"/C/Users/Virgilio/Dropbox/Contratos/2014/La-Coquetterie/MercadoShops/Plantillas/Versiones/Responsive/La-Coquetterie/CSS/personalized.css",
+		"/C/Users/Virgilio/Dropbox/Contratos/2014/La-Coquetterie/MercadoShops/Plantillas/Versiones/Responsive/La-Coquetterie/HTML/footer.html",
+		"/C/xampp/htdocs/La-Coquetterie/CSS/themes/normalize.css",
+		"/C/xampp/htdocs/La-Coquetterie/CSS/themes/mini/desktop.css",
+		"/C/Users/Virgilio/AppData/Roaming/Sublime Text 2/Packages/User/HtmlTidy.sublime-settings",
+		"/C/Users/Virgilio/AppData/Roaming/Sublime Text 2/Packages/HtmlTidy/HtmlTidy.sublime-settings",
+		"/C/xampp/htdocs/La-Coquetterie/HTML/header.html",
+		"/C/xampp/htdocs/Softline/softline-bs/css/desktop.css",
+		"/C/xampp/htdocs/Softline/softline-bs/index.html",
+		"/C/xampp/htdocs/Bootstrap/03_06.html",
+		"/C/xampp/htdocs/Bootstrap/02_03.html",
+		"/C/xampp/htdocs/Bootstrap/03_05.html",
+		"/C/xampp/htdocs/Bootstrap/02_05.html",
+		"/C/xampp/htdocs/Bootstrap/index.html",
+		"/C/xampp/htdocs/Softline/softline-bs/css/inicio.css",
+		"/C/xampp/htdocs/Bootstrap/02_02.html",
+		"/C/Users/Virgilio/AppData/Roaming/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Virgilio/AppData/Roaming/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/C/xampp/htdocs/Softline/softline-bs/header.html",
+		"/C/xampp/htdocs/Bootstrap/03_04.html",
+		"/C/xampp/htdocs/Bootstrap/03_03.html",
+		"/C/xampp/htdocs/Bootstrap/03_02.html",
+		"/C/xampp/htdocs/Bootstrap/03_01.html",
+		"/C/xampp/htdocs/Bootstrap/02_07.html",
+		"/C/xampp/htdocs/Bootstrap/02_06.html",
+		"/C/xampp/htdocs/Softline/softline-bs/index-original.html",
+		"/C/xampp/htdocs/Softline/softline-bs/css/custom.css",
+		"/C/xampp/htdocs/Softline/softline_html/index.html",
+		"/C/xampp/htdocs/Bootstrap/02_04.html",
+		"/C/xampp/htdocs/Bootstrap/css/bootstrap.css",
+		"/C/xampp/htdocs/La-Coquetterie/La-Coquetterie.sublime-project",
+		"/C/xampp/htdocs/La-Coquetterie/La-Coquetterie.sublime-workspace",
+		"/C/xampp/htdocs/La-Coquetterie/HTML/footer.html",
+		"/C/xampp/htdocs/La-Coquetterie/CSS/themes/base.css",
+		"/C/xampp/htdocs/La-Coquetterie/CSS/themes/mini/basic.css",
+		"/C/xampp/htdocs/La-Coquetterie/IMAGES/bg_body.png"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#4ac340",
+			"#89AC10",
+			"#4ac340",
+			"two-girls",
+			".two-girls",
+			".two-girls ",
+			"title",
+			"#89AC10",
+			"simbolo",
+			"7cc24d",
+			"simbolo.png",
+			"two_girls.png",
+			"85a03c",
+			"720",
+			".component.simpleMenu ",
+			".component .simpleMenu ",
+			".component.simpleMenu ",
+			"bg_body",
+			"main",
+			"550",
+			".component.prominentProd h2 a ",
+			"price",
+			".component.prominentProd article",
+			"link",
+			"price",
+			"#89AC10",
+			".component.prominentProd .ch-price",
+			"5",
+			"Diet",
+			"component prominentProd prodCarousel ch-g1",
+			"before",
+			"ch-g1 main wrapper",
+			"main wrapper",
+			".ch-g1",
+			"ch-g1",
+			"wrapper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"5"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,1247 @@
+/* Escribe aquí las clases que quieras personalizar. Consulta la documentación en http://blog.mercadoshops.com/html/#EditandoCSS */
+
+body {background-color: #7CC24D;
+	background-image: none;
+	background-repeat: no-repeat;
+	color: #6b6b6b;
+	font-family: 'Raleway', sans-serif;font-style: normal;
+	font-weight: 300;
+}
+.component.img-logo{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 5px 0 30px 0;
+}
+.header-top{
+	background-image: url("../IMAGES/back-complete_02.png");
+	background-repeat: no-repeat;
+	max-width: 955px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.contenido-home{
+	background-image: url("../IMAGES/back-complete_02.png");
+	background-repeat: no-repeat;
+	max-width: 955px;
+	overflow: auto;}
+.right-header{}
+.two-girls {
+	background-image: url("../IMAGES/simbolo.png");
+    background-repeat: no-repeat;
+	float: right;
+	height:auto;
+	margin-right: 51px;
+	width: 100%;
+	position: absolute;
+	margin-top: -205px;
+	margin-left: 774px;
+}
+.component, .section {
+	display: block;
+}
+.cierre-footer{
+	background-image: url("../IMAGES/back-complete_02.png");
+	width: 100%;
+	height: 46px;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.menu-botones{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 20px;
+}
+.menu-botones img{
+    max-width: 25%;
+}
+.btn-productos{margin-right: 3%;}
+/*.btn-monitos{
+    float: left;
+    max-width: 192px;
+    max-height: 105px; 
+    background-image: url("../IMAGES/btn-monitos.png");
+    margin-right: 20px;
+}
+.btn-vestidos{
+    float: left;
+    max-width: 192px;
+    max-height: 105px;
+    background-image: url("../IMAGES/btn-vestidos.png");
+    margin-left: 10px;
+}
+.btn-bombachos{
+    float: left;
+    max-width: 192px;
+    max-height: 105px;
+    background-image: url("../IMAGES/btn-bombachos.png");
+    margin-left: 35px;
+}
+.btn-munecas{
+    float: left;
+    max-width: 192px;
+    max-height: 105px;
+    background-image: url("../IMAGES/btn-munecas.png");
+    margin-left: 36px;
+} */
+.component.prodCarousel li {
+	max-height: 200px !important;
+}
+.component.prominentProd figure {
+	position: relative;
+	max-width: 30%;
+}
+.marco-verde {
+	width: 100%;
+	overflow: auto;
+	background-color: #78a22f;
+	float: left;
+	padding-top: 15px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px dotted #fff;
+	padding-bottom: 15px;
+}
+.component.prominentProd {
+	padding: 0px;
+	width: 97%;
+	margin: 0 auto;
+	padding-left: 15px;
+	border-bottom: 0px;
+}
+footer {
+	border-top: 0px;
+	position: relative;
+}
+.menu-redes-soc{
+	width: 100%;
+}
+.menu-facebook{
+	width: 197px;
+	height: 68px;
+	float: left;
+	background-image: url("../IMAGES/ico-fb-home.png");
+	background-repeat: no-repeat;
+	margin-left: 209px;
+	background-color: #efeff0;
+}
+.menu-twitter{
+	width: 212px;
+	height: 68px;
+	float: left;
+	margin-left: 10px;
+	background-image: url("../IMAGES/ico-tw-home.png");
+	background-repeat: no-repeat;
+	background-color: #efeff0;
+}
+.menu-instagram{
+	width: 197px;
+	height: 68px;
+	margin-left: 10px;
+	float: left;
+	background-image: url("../IMAGES/ico-inst-home.png");
+	background-repeat: no-repeat;
+	background-color: #efeff0;
+}
+.component.paymentMethods3 {
+	margin: 10px;
+	padding: 10px;
+	background-color: #fff;
+	height: 138px;
+	border: 1.5px dotted #4ac340;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.formContact {
+	background-color: #fff;
+	padding: 10px;
+	border: 1.5px dotted #4ac340;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.component.searchResults .rowsWrapper {
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+.component.searchResults .component.item-gallery li {
+	float: left;
+	padding: 0px;
+	max-height: 325px;
+	overflow: hidden;
+	width: 23%;
+	background-color: #efeff0;
+	border: 1.5px #4ac340 dotted;
+	margin: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;}
+.component.itemGallery li.background {
+	background: none;
+	max-height: 191px;
+	overflow: hidden;
+	border: 1.5px #4ac340 dotted;
+	margin: 5px;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #efeff0;
+}
+.vipImageWrapper  {
+    width:  50%;
+    background-color:  #efeff0;
+}
+
+.vipWrapper  {
+    width:  50%;
+    background-color:  #efeff0;
+    height:  552px;
+}
+
+input,  textarea,  select[multiple],  .ch-form-select-multiple  {
+    border:  1px dotted #4ac340;
+    -moz-box-shadow:  1px 1px 1px rgba(204,  204,  204,  0.3) inset;
+    -ms-box-shadow:  1px 1px 1px rgba(204,  204,  204,  0.3) inset;
+    -o-box-shadow:  1px 1px 1px rgba(204,  204,  204,  0.3) inset;
+    -webkit-box-shadow:  1px 1px 1px rgba(204,  204,  204,  0.3) inset;
+    box-shadow:  1px 1px 1px rgba(204,  204,  204,  0.3) inset;
+    padding:  5px 4px;
+    margin:  5px 0;
+    -webkit-border-radius:  5px;
+    background-color:  #E9F3D9;
+}
+.title{
+    color:#7CC24D !important;
+}
+
+.title h2 {
+    color:  #6b6b6b;
+    display:  none;
+}
+
+.component.prominentProd h2 a  {
+    display:  block;
+    font-weight:  100;
+}
+
+.component.prominentProd .ch-carousel  {
+    background-color:  #fff;
+    padding:  20px 0;
+    -webkit-border-radius:  8px;
+}
+
+#contact-btn  {
+    margin:  10px 47px 10px 10px;
+}
+
+.component.vip h1  {
+    line-height:  100%;
+    font-weight:  bold;
+    margin-bottom:  0px;
+    font-size:  25px;
+    padding-right:  5px;
+}
+
+.component.vip span.ch-price.price  {
+    font-size:  25px;
+    display:  inherit;
+}
+
+.paymentsMP dl.priceInfo  {
+    float:  left;
+    /* margin:  10px;
+     */margin-top:  9px;
+}
+
+.PaymentList li.ShippingData  {
+    clear:  both;
+    display:  block;
+    margin-top:  35px;
+}
+
+.PaymentList li  {
+    margin-bottom:  30px;
+    line-height:  21px;
+}
+
+.FbLikeButton  {
+    margin-top:  0px;
+    display:  block;
+    position:  absolute;
+    margin-top:  460px;
+    margin-left:  -224px;
+}
+
+.component.vip .priceInfo  {
+    margin:  5px px 0 0;
+    display:  inline-block;
+    margin-top:  10px;
+}
+
+.component.categoriesPath li  {
+    background:  url("http://static.mercadoshops.com/static/images/themes/basic/sprite.png") no-repeat scroll 0 -61px transparent;
+    float:  left;
+    line-height:  15px;
+    margin-right:  6px;
+    overflow:  visible;
+    padding-left:  10px;
+    font-size:  17px;
+}
+
+.component.addressExtended dl  {
+    line-height:  20px;
+    float:  left;
+    width:  40%;
+    margin-right:  20px;
+    margin-left:  18px;
+    margin-top:  10px;
+}
+
+dd#fb-button  {
+    display:  inline-block;
+    position:  absolute;
+    margin-left:  -217px;
+    margin-top:  -5px;
+}
+
+.component.addressExtended dl  {
+    line-height:  20px;
+    float:  left;
+    width:  40%;
+    margin-right:  20px;
+    margin-left:  14px;
+    margin-top:  -23px;
+}
+
+.component.prominentProd h2  {
+    float:  left;
+    font-size:  250% !important;
+    line-height:  1em;
+    font-weight:  bold;
+    margin-bottom:  30px;
+}
+
+.component.prodCarousel .ch-price  {
+    font-size:  200%;
+    float:  left;
+    clear:  left;
+}
+
+li.itemFeatures,  div.itemFeatures  {
+    color:  #A7A7A7;
+    font-size:  17px;
+}
+
+.component.itemGallery li  {
+    float:  left;
+    width:  22%;
+}
+
+.component.itemGallery h2  {
+    margin:  0 20px 10px 10px;
+    max-height:  4.1em;
+    overflow:  hidden;
+    line-height:  1em;
+    font-size:  19px;
+}
+
+.price  {
+    color:  #6b6b6b;
+    font-style:  normal;
+    font-weight:  normal;
+    font-size:  20px;
+    margin-left:  10px;
+    display:  none;
+}
+
+.component.searchResults .component.item-gallery h2  {
+    max-height:  3.6em;
+    overflow:  hidden;
+    display:  block;
+    line-height:  1.2em;
+    margin:  35px 10px 5px 10px;
+    font-size:  18px;
+}
+
+.searchBar {
+    float:  right;
+}
+
+.component.cartButton  {
+    position:  relative;
+    text-align:  right;
+    display:  inline;
+    float:  left;
+    margin-top:  5px;
+}
+
+.ch-container  {
+    margin:  0;
+    padding:  5px;
+}
+
+.component.simpleMenu  {
+    background-color:  #FFF;
+    display:  inline-block;
+    float:  right;
+    font-size:  15px;
+}
+
+.socialData {
+    display:  none;
+}
+
+.component.addressExtended .companyData dt,  .component.addressExtended .companyData dd  {
+    display:  inline;
+    border:  none;
+}
+
+.component.addressExtended dl  {
+    line-height:  20px;
+    float:  left;
+    max-width:  40%;
+    margin-right:  20px;
+    margin-left:  310px;
+    margin-top:  17px;
+    
+}
+.component.addressExtended  {
+    font-style:  normal;
+    display:  inline;
+    color:  #607C01;
+    font-size:  12px;
+}
+
+li.itemFeatures,  div.itemFeatures  {
+    color:  #6b6b6b;
+    font-size:  17px;
+}
+
+.component.searchResults .item-list .row  {
+    border-bottom:  1px solid #CECECE;
+    padding:  0px;
+    width:  100%;
+    background:  #efeff0;
+}
+
+.component.searchResults .item-list .row:hover  {
+    background-color:  #ffffff;
+}
+
+.component.page-user  {
+    padding:  0;
+    background-color:  #fff;
+    -webkit-border-radius:  5px;
+    border:  1px dotted #4ac340;
+}
+
+.description,  .datos {
+    margin:  15px;
+    font-size:  14px;
+    text-align:  justify;
+}
+
+.description img {
+margin-left: 5px;
+margin-bottom: 5px;
+width: 50%;
+}
+
+.title-component  {
+    font-style:  normal;
+    font-size:  18px;
+    margin:  10px;
+}
+
+.component.prominentProd .ch-price  {
+    font-weight:  bold;
+    margin-bottom:  20px;
+    display:  none;
+}
+
+.component.prominentProd .ch-carousel  {
+    background-color:  #fff;
+    padding:  20px 0;
+    -webkit-box-shadow:  1px 0px 15px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:  1px 0px 15px -3px rgba(0, 0, 0, 0.75);
+    box-shadow:  1px 0px 15px -3px rgba(0, 0, 0, 0.75);
+}
+
+.link  {
+    color:  #6b6b6b;
+}
+
+.component.itemGallery  {
+    overflow:  hidden;
+    clear:  both;
+    margin:  0px 0;
+}
+
+.component.prominentProd .ch-carousel article  {
+    padding:  1px;
+}
+
+.component.page-user  {
+    padding:  25px;
+    background-color:  #fff;
+    -webkit-border-radius:  5px;
+    border:  1px dotted #4ac340;
+}
+
+#price-vip.price {
+    color:  #6b6b6b;
+    font-style:  normal;
+    font-weight:  normal;
+    font-size:  20px;
+    margin-left:  10px;
+    display:  block;
+}
+
+.component.categoriesPath  {
+    padding:  7px;
+    border-bottom:  1px solid #cecece;
+    background-color:  #ededed;
+}
+
+/*RESPONSIVE*/
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    /* HOME / HEADER / FOOTER */
+    .component.prominentProd, .component.itemGallery, .component.simpleMenu,.component.addressExtended{
+        display:none;
+    }
+    .component.cartButton {
+    position: relative;
+    text-align: right;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    }
+    .component.cartButton .bg-cart {
+    background-image: none;
+    padding: 0;
+    float: left;
+    margin-top: 1px;
+    display: inline-block;
+    }
+    .menu-botones {
+    width: 100%;
+    margin: 0px 0%;
+    }
+    .component.img-logo {
+    margin-top: 0px;
+    padding: 0;
+    max-height: 130px;
+    min-height: 130px;
+    height: auto!important;
+    height: auto;
+    overflow: hidden;
+    }
+    .component.img-logo a {
+    display: inline-block;
+    max-width: 230px;
+    overflow: hidden;
+    margin: 0px 0%;
+    }
+    .component.addressExtended dl{
+        margin-left: 0px
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 28%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 52px;
+        height:62px;
+        margin-right: 5%;
+        margin-left: 0px;
+    }
+    /* CATEGORIA DE PRODUCTOS*/
+    .component.searchResults .component.item-gallery li{
+        width:45%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 130px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .description img {
+    width: 100%;
+    margin: 0;
+    }
+    .description, .datos {
+    margin:0;
+    }
+    .component.page-user {
+    padding: 10px;
+    }
+    /* DETALLE DE PRODUCTOS */
+    .vipWrapper {
+        width: 100%;
+        height:275px;
+    }
+    header {
+        padding-top: 1px;
+    }
+    .vipImageWrapper {
+        width: 100%;
+
+    }
+    .component.categoriesPath li{
+        font-size: 13px;
+        display: block;
+        line-height: 1;
+    }
+    .ch-viewervip-content li a, .ch-viewervip-content li object {
+        width: 100%;
+        height: 100%;
+    }
+    .component.picviewer{
+        min-height: 295px;
+    }
+    .component.vip h1 {
+        font-size: 17px;
+        text-align: justify;
+    }
+    .component.vip span.ch-price.price {
+        font-size: 20px;
+    }
+    .vipSocials{
+        margin: 0;
+    }
+    .component.searchResults .component.item-gallery h2{
+        font-size: 15px;
+    }
+    /*FORMULARIO DE CONTACTOS*/
+    #frmContact.ch-form #msgContent{
+        width:96%;
+    }
+    #recaptcha_image, #recaptcha_widget{
+        width:95% !important;
+        left:0px;
+    }
+    #recaptcha_challenge_image{
+        width:100% !important;
+    }
+    .recaptcha_reload{
+        left: 122px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 320px){
+    .menu-botones {
+    margin-left:16%;
+    }
+    .menu-redes-soc{
+    margin:0px 22%;
+
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    /* HOME / HEADER / FOOTER */
+    .component.prominentProd, .component.itemGallery, .component.simpleMenu, .component.addressExtended{
+        display:none;
+    }
+    .menu-botones {
+    margin-left:22%;
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 28%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 52px;
+        height:62px;
+        margin-right: 5%;
+        margin-left: 0px;
+    }
+    .component.cartButton {
+    position: relative;
+    text-align: right;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    }
+    .component.cartButton .bg-cart {
+    background-image: none;
+    padding: 0;
+    float: left;
+    margin-top: 1px;
+    display: inline-block;
+    }
+    /* CATEGORIA DE PRODUCTOS*/
+    .component.searchResults .component.item-gallery li{
+        width:45%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 150px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+    /* DETALLE DE PRODUCTOS */
+    .vipWrapper {
+        width: 100%;
+        height:275px;
+    }
+    header {
+        padding-top: 1px;
+    }
+    .vipImageWrapper {
+        width: 100%;
+
+    }
+    .component.categoriesPath li{
+        font-size: 13px;
+        display: block;
+        line-height: 1;
+    }
+    .ch-viewervip-content li a, .ch-viewervip-content li object {
+        width: 100%;
+        height: 100%;
+    }
+    .component.picviewer{
+        min-height: 295px;
+    }
+    .component.vip h1 {
+        text-align: justify;
+    }
+    .vipSocials{
+        margin: 0;
+    }
+    .component.searchResults .component.item-gallery h2{
+        font-size: 15px;
+    }
+   
+    /*FORMULARIO DE CONTACTOS*/
+    #frmContact.ch-form #msgContent{
+        width:96%;
+    }
+    #recaptcha_image, #recaptcha_widget{
+        width:95% !important;
+    }
+    #recaptcha_challenge_image{
+        width:100% !important;
+    }
+    .recaptcha_reload{
+        left: 149px;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 800px){
+    /* HOME / HEADER / FOOTER */
+    .component.prominentProd, .component.itemGallery, .component.simpleMenu, .component.addressExtended{
+        display:none;
+    }
+    .menu-botones {
+    margin-left:3%;
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 28%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 52px;
+        height:62px;
+        margin-right: 5%;
+        margin-left: 0px;
+    }
+    .component.cartButton {
+    position: relative;
+    text-align: right;
+    display: inline;
+    float: right;
+    margin-top: 5px;
+    }
+    .component.cartButton .bg-cart {
+    background-image: none;
+    padding: 0;
+    float: left;
+    margin-top: 1px;
+    display: inline-block;
+    }
+    /* CATEGORIA DE PRODUCTOS*/
+    .component.searchResults .component.item-gallery li{
+        width:30%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 130px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+    #recaptcha_widget{
+        left:0px;
+    }
+    /*FORMULARIO DE CONTACTOS*/
+    #frmContact.ch-form #msgContent{
+        width:96%;
+    }
+    #recaptcha_image, #recaptcha_widget{
+        width:95% !important;
+    }
+    #recaptcha_challenge_image{
+        width:100% !important;
+    }
+
+}
+@media screen and (min-width: 640px) and (max-width: 900px){
+    /* HOME / HEADER / FOOTER */
+    .component.img-logo {
+        min-height: 142px;
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+    .two-girls {
+        background-size: 70%;
+        background-repeat: no-repeat;
+        margin-top: -148px;
+        margin-left: 605px;
+    }
+    .component.img-logo a {
+    max-width: 230px;
+    }
+    .two-girls {
+        background-image: url("../IMAGES/simbolo.png");
+        background-size: 65%;
+        background-repeat: no-repeat;
+        float: right;
+        height: 150px;
+        margin-right: 51px;
+        width: 142px;
+        position: absolute;
+        margin-top: -144px;
+        margin-left: 584px;
+    }
+    #searchWrap.searchWrapper {
+        position: absolute;
+        bottom: 15%;
+        margin-bottom: -20px;
+        right:0px;
+    }
+    #searchWrap .component.searchBar {
+        text-align: left;
+        float: left;
+        margin-right: 12px;
+    }
+    #searchWrap .component.searchBar #searchForm .inputField {
+        border: 1px solid #CECECE;
+        border-radius: 4px;
+        padding: 5px 0 5px 20px;
+        width: 157px;
+        background: white url(http://static.mercadoshops.com/static/images/spriteMain.png) -15px -319px no-repeat;
+        margin: 12px -3px 0px 0px;
+    }
+    .component.prominentProd, .component.simpleMenu, .component.addressExtended{
+        display:none;
+    }
+    .component.itemGallery{display:block;}
+    .menu-botones {
+    margin: 10px 0px 0px 0px;
+    width:100%;
+    }
+    .menu-botones a{
+        max-width: 23.2%;
+        padding-right: 10px;
+        float:left;
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 28%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 52px;
+        height:62px;
+        margin-right: 5%;
+        margin-left: 0px;
+    }
+
+    .component.cartButton .bg-cart {
+    background-position: 0 -16px;
+    background-image: url("http://static.mercadoshops.com/static/images/themes/smoked/sprite.png");
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 27px;
+    }
+    .component.itemGallery li.background{
+        max-height: 132px;
+        margin: 2px;
+    }
+    ..component.itemGallery li.background
+
+    /* CATEGORIA DE PRODUCTOS*/
+
+    .component.searchResults .component.item-gallery li{
+        width:20.9%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 150px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+
+
+
+}
+@media screen and (min-width: 600px) and (max-width: 604px){
+    /* HOME / HEADER / FOOTER */
+    .mainContent .ch-container {
+    padding: 7px;
+    }
+    .component.img-logo {
+        min-height: 150px;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    .component.img-logo a {
+    max-width: 230px;
+    }
+    #searchWrap.searchWrapper {
+        position: absolute;
+        bottom: 15%;
+        margin-bottom: -20px;
+        right:0px;
+    }
+    #searchWrap .component.searchBar {
+        text-align: left;
+        float: left;
+        margin-right: 12px;
+    }
+    #searchWrap .component.searchBar #searchForm .inputField {
+        border: 1px solid #CECECE;
+        border-radius: 4px;
+        padding: 5px 0 5px 20px;
+        width: 157px;
+        background: white url(http://static.mercadoshops.com/static/images/spriteMain.png) -15px -319px no-repeat;
+        margin: 12px -3px 0px 0px;
+    }
+    .component.prominentProd .ch-carousel, .component.prominentProd .ch-carousel-mask {
+        height: 175px !important;
+    }
+    .ch-carousel-adaptive {
+        margin: 0 58px;
+    }
+    .two-girls {
+        margin-top: -156px;
+        margin-left: 440px;
+        background-image: url("../IMAGES/simbolo.png");
+        float: right;
+        background-size: 70%;
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 142px;
+        position: absolute;
+    }
+    .component.prominentProd, .component.addressExtended{
+        display:block;
+    }
+    .component.itemGallery{display:block;}
+    .menu-botones {
+    margin: 20px 0px 0px 0px;
+    width:100%;
+    }
+    .menu-botones a{
+        max-width: 23.9%;
+        padding-right: 4px;
+        float:left;
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 2%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 167px;
+        height: 52px;
+        margin-right: 5%;
+        margin-left: 0px;
+        background-size: 100%;
+    }
+
+    .component.cartButton .bg-cart {
+    background-position: 0 -16px;
+    background-image: url("http://static.mercadoshops.com/static/images/themes/smoked/sprite.png");
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 27px;
+    }
+    .component.itemGallery li.background{
+        max-height: 132px;
+        margin: 1px;
+    }
+    ..component.itemGallery li.background
+
+    /* CATEGORIA DE PRODUCTOS*/
+
+    .component.searchResults .component.item-gallery li{
+        width:20.9%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 150px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+    .component.addressExtended {
+    display: block;
+    float: left;
+    margin: 0px -17%;
+    width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 960px){
+    /* HOME / HEADER / FOOTER */
+    .component.img-logo {
+        min-height: 150px;
+        padding-top: 5px;
+    }
+    .component.img-logo a {
+    max-width: 260px;
+    }
+    #searchWrap.searchWrapper {
+        position: absolute;
+        bottom: 15%;
+        margin-bottom: -20px;
+        right:0px;
+    }
+    #searchWrap .component.searchBar {
+        text-align: left;
+        float: left;
+        margin-right: 12px;
+    }
+    #searchWrap .component.searchBar #searchForm .inputField {
+        border: 1px solid #CECECE;
+        border-radius: 4px;
+        padding: 5px 0 5px 20px;
+        width: 157px;
+        background: white url(http://static.mercadoshops.com/static/images/spriteMain.png) -15px -319px no-repeat;
+        margin: 12px -3px 0px 0px;
+    }
+    .component.prominentProd .ch-carousel, .component.prominentProd .ch-carousel-mask {
+        height: 175px !important;
+    }
+    .ch-carousel-adaptive {
+        margin: 0 58px;
+    }
+    .two-girls {
+        margin-top: -150px;
+        margin-left: 475px;
+    }
+    .component.prominentProd, .component.addressExtended,.component.itemGallery{
+        display:block;
+    }
+    .component.simpleMenu{display:none;}
+    .menu-botones {
+        margin: 10px 0px 0px 0px;
+        width:100%;
+    }
+    .menu-botones a{
+        max-width: 23.2%;
+        padding-right: 10px;
+        float:left;
+    }
+    .menu-redes-soc{
+        width: 100%;
+        margin:0px 2%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 173px;
+        height: 51px;
+        margin-right: 5%;
+        margin-left: 0px;
+        background-size: 100%;
+    }
+
+    .component.cartButton .bg-cart {
+    background-position: 0 -16px;
+    background-image: url("http://static.mercadoshops.com/static/images/themes/smoked/sprite.png");
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 27px;
+    }
+    .component.itemGallery li.background{
+        max-height: 132px;
+        margin: 2px;
+    }
+    ..component.itemGallery li.background
+
+    /* CATEGORIA DE PRODUCTOS*/
+
+    .component.searchResults .component.item-gallery li{
+        width:20.9%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 150px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+        height:auto;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+
+
+}
+@media screen and (min-width: 768px)and (max-width: 1024px){
+    /* HOME / HEADER / FOOTER */
+    .component.img-logo {
+        min-height: 150px;
+        padding-top: 5px;
+    }
+    .component.img-logo a {
+    max-width: 260px;
+    }
+    #searchWrap.searchWrapper {
+        position: absolute;
+        bottom: 15%;
+        margin-bottom: -20px;
+        right:0px;
+    }
+    #searchWrap .component.searchBar {
+        text-align: left;
+        float: left;
+        margin-right: 12px;
+    }
+    #searchWrap .component.searchBar #searchForm .inputField {
+        border: 1px solid #CECECE;
+        border-radius: 4px;
+        padding: 5px 0 5px 20px;
+        width: 157px;
+        background: white url(http://static.mercadoshops.com/static/images/spriteMain.png) -15px -319px no-repeat;
+        margin: 12px -3px 0px 0px;
+    }
+    .component.prominentProd .ch-carousel, .component.prominentProd .ch-carousel-mask {
+        height: 175px !important;
+    }
+    .ch-carousel-adaptive {
+        margin: 0 58px;
+    }
+    .two-girls {
+        margin-top: -148px;
+        margin-left: 620px;
+    }
+    .component.prominentProd, .component.simpleMenu, .component.addressExtended{
+        display:block;
+    }
+    .component.itemGallery{display:block;}
+    .menu-botones {
+    margin: 10px 0px 0px 0px;
+    width:100%;
+    }
+    .menu-botones a{
+        max-width: 23.2%;
+        padding-right: 10px;
+        float:left;
+    }
+    .menu-redes-soc{
+    width: 100%;
+    margin:0px 5%;
+
+    }
+    .menu-facebook, .menu-twitter, .menu-instagram {
+        width: 185px;
+        height:62px;
+        margin-right: 7%;
+        margin-left: 4px;
+    }
+
+    .component.cartButton .bg-cart {
+    background-position: 0 -16px;
+    background-image: url("http://static.mercadoshops.com/static/images/themes/smoked/sprite.png");
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 27px;
+    }
+    .component.itemGallery li.background{
+        max-height: 132px;
+        margin: 2px;
+    }
+    ..component.itemGallery li.background
+
+    /* CATEGORIA DE PRODUCTOS*/
+
+    .component.searchResults .component.item-gallery li{
+        width:20.9%;
+    }
+    .component.searchResults .component.item-gallery article {
+    padding: 193px 0px 0 0px;
+    height:auto;
+    }
+    .component.searchResults .component.item-gallery li {
+    min-height: 270px;
+    }
+    .component.searchResults .component.item-gallery h2 {
+    margin: 5px 10px 5px 10px;
+    }
+    .component.searchResults .component.item-gallery {
+    margin-right: -2px;
+    }
+    .component.addressExtended {
+    float: left;
+    }
+
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+    #searchWrap.searchWrapper {
+        position: absolute;
+        bottom: 11%;
+        margin-bottom: 0px;
+    }
+    .two-girls {
+        background-size: 80%;
+        background-repeat: no-repeat;
+        margin-top: -180px;
+        margin-left: 774px;
+    }
+}

@@ -1,0 +1,66 @@
+<footer class="ch-g1 wrapper bottom clearfix">
+<div class="contenido-home">
+<div class="menu-redes-soc">
+	<a href="https://www.facebook.com/lacoquetterieve"><div class="menu-facebook"></div></a>
+	<a href="https://twitter.com/lacoquetterieve"><div class="menu-twitter"></div></a>
+	<a href="http://instagram.com/lacoquetterieve"><div class="menu-instagram"></div></a>
+</div>
+	<div class="ch-container">
+<address class="component addressExtended link">
+    <dl class="companyData">
+        <dt>Nuestros datos</dt> 
+		<dd>La Coquetterie</dd>
+		#if($showContactFooter)
+			#if( $showAddres )
+	        <dd>$address</dd>
+			#end
+	        #if( $showPhone )
+	        <dd></dd> 
+	        #end
+        #end
+		<dd>
+			<a href="/contact">Contáctanos</a>
+		</dd>
+    </dl>
+    
+    <dl class="socialData">
+		<dt>
+			Seguinos:
+		</dt>	
+		<dd id="fb-button">
+
+		</dd>
+		<g:plusone size="medium" count="false" href="http://www.lacoquetterie.net"></g:plusone>
+	</dl>  
+
+	#if($hasFiscalData)
+		<dl class="fiscalData">
+			#if($fiscalData.companyName)
+				<dd>$SEU.escapeHtml($fiscalData.companyName)</dd>
+			#end
+			#if($fiscalData.documentNumber)
+				<dd>#if($fiscalData.documentType) $SEU.escapeHtml($fiscalData.documentType):#end $SEU.escapeHtml($fiscalData.documentNumber)</dd>
+			#end
+			
+		</dl> 
+	#end
+</address>
+#if($hasFiscalData)
+<div class="dataFiscal">
+			#if($showQrImage)
+    <a href="$fiscalData.getURL()" target="_F960AFIPInfo">
+    	<img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" width="40" height="57" border="0">
+    </a>
+#end
+	</div>
+#end
+
+
+
+
+ <!-- footer left -->
+	</div>
+	</div>
+	<div class="cierre-footer"></div>
+		<div class="component mshops">Powered by <a class="link" href="http://www.mercadoshops.com.ve" title="MercadoShops">MercadoShops</a></div>
+	</footer>
